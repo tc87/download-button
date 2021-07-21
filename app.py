@@ -86,7 +86,7 @@ st.download_button(
     "name_a.csv",
     "text/csv",
     on_click=callback,
-    key='blah'
+    key='my_key'
 )
 
 st.markdown('---')
