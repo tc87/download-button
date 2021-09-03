@@ -27,7 +27,7 @@ demo_pages = {
 contributors = []
 
 intro = f"""
-Launch release for Download Button
+This release launches download button as well as bug fixes and improvements.
 """
 
 release_notes = f"""
@@ -47,7 +47,7 @@ release_notes = f"""
 def draw_main_page():
     st.write(
         f"""
-        # Prototype based off Streamlit v{VERSION}!
+        # Welcome to Streamlit 0.88! 👋
         """
     )
 
