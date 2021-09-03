@@ -17,9 +17,9 @@ VERSION = ".".join(st.__version__.split(".")[:2])
 from demos import orchestrator
 
 demo_pages = {
-    "Version1": orchestrator.show_version1,
-    "Version2": orchestrator.show_version2,
-    "Version3": orchestrator.show_version3,
+    "Demo set 1": orchestrator.show_version1,
+    "Demo set 2": orchestrator.show_version2,
+    "Demo set 3": orchestrator.show_version3,
 }
 
 
@@ -32,13 +32,12 @@ This release launches download button as well as bug fixes and improvements.
 
 release_notes = f"""
 ---
-# ✨ Release Highlight
 
 ## ⬇️ Download Button
 
-- Previous to this release, there had been hack ways to use download functionality within Streamlit, but none of these were great for general use - notably most didn't play well with the [Streamlit Cloud platform](https://streamlit.io/cloud). With `st.download_button` you can now seamlessly use download functionality both locally and with on our cloud platform. 
+With `st.download_button` you can now seamlessly use download functionality both locally and with on our cloud platform. 
 
-Want to play with some samples? Check out the radio buttons in the sidebar and check out [the docs](https://docs.streamlit.io/en/stable/api.html?highlight=download%20button#streamlit.download_button) for more info!
+Want to play with some samples? Check out the radio buttons in the sidebar and header over to [the blog](https://docs.streamlit.io/en/stable/api.html?highlight=download%20button#streamlit.download_button) for more info!
 
 ## 🧩 Other notable updates
 
