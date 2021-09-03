@@ -27,7 +27,7 @@ demo_pages = {
 contributors = []
 
 intro = f"""
-Launch candidate for Download Button
+Launch release for Download Button
 """
 
 release_notes = f"""
