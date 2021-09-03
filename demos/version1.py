@@ -6,8 +6,7 @@ import numpy as np
 def show():
     st.write(
         """
-        ## Version 1
-        Covers use cases from 1st iteration
+        ## Demo Set 1
         """
     )
     df = pd.read_csv("desktop_streamlit.csv")
