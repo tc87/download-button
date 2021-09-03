@@ -52,11 +52,6 @@ Below are some other notable updates on this release:
 
 """
 
-Connect With Us
-We can be found at https://streamlit.io and https://twitter.com/streamlit
-Come by the forums if you'd like to ask questions, post awesome apps, or just say hi!
-
-
 # End release updates
 
 
