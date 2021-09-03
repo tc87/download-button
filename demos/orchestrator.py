@@ -9,7 +9,7 @@ def show_version1():
 
     st.write(
             """
-        # Download demo set 1
+        # Download Demo Set 1
         """
     )
 
@@ -21,7 +21,7 @@ def show_version2():
 
     st.write(
         """
-        # Download demo set 2
+        # Download Demo Set 2
         """
     )
 
@@ -33,7 +33,7 @@ def show_version3():
 
     st.write(
        """
-        # Download demo set 3
+        # Download Demo Set 3
         """
     )
 
