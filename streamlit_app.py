@@ -36,10 +36,19 @@ release_notes = f"""
 
 ## ⬇️ Download Button
 
-Previous to this release, there had been hack ways to use download functionality within Streamlit, but none of these were great for general use - notably most didn't play well with the [Streamlit Cloud platform](https://streamlit.io/cloud). With `st.download_button` you can now seamlessly use download functionality both locally and with on our cloud platform. Want to play with some samples? Check out the radio buttons in the sidebar!
+- Previous to this release, there had been hack ways to use download functionality within Streamlit, but none of these were great for general use - notably most didn't play well with the [Streamlit Cloud platform](https://streamlit.io/cloud). With `st.download_button` you can now seamlessly use download functionality both locally and with on our cloud platform. 
 
-**Error Scenarios**
-- Raise exception when download button used inside form
+Want to play with some samples? Check out the radio buttons in the sidebar and check out [the docs](https://docs.streamlit.io/en/stable/api.html?highlight=download%20button#streamlit.download_button) for more info!
+
+# 🧩 Other notable updates
+
+Below are some other notable updates on this release:
+
+- 🛑 We made changes to improve the redacted exception experience on Streamlit Cloud. When `client.showErrorDetails=true`  exceptions display the Error Type and the Traceback, but redact the actual error text to prevent data leaks. [[3713](https://github.com/streamlit/streamlit/pull/3713)]
+- 🖥️ Since Macs are set to verify SSL in Python, if certificates aren't installed, a `SSL: CERTIFICATE_VERIFY_FAILED` error propagates. We removed HTTPS in order to solve this issue. [[3744](https://github.com/streamlit/streamlit/pull/3744)]
+- 🔑 Integers can now also be used as keys in widget declarations. This helps community members who use integers for keys. This change updates type annotations to allow it, and ensures integer keys are converted to strings. [[3697](https://github.com/streamlit/streamlit/pull/3697)]
+
+[Click here](https://github.com/streamlit/streamlit/compare/0.87.0...0.88.0) to check out all updates.
 
 """
 # End release updates
