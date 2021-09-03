@@ -32,10 +32,11 @@ This release launches download button as well as bug fixes and improvements.
 
 release_notes = f"""
 ---
-**Key Features**
-- Download large files
-- Filenames can contain unicode symbols
-- Files downloaded with correct filenames on Streamlit Cloud
+# ✨ Release Highlight
+
+## ⬇️ Download Button
+
+Previous to this release, there had been hack ways to use download functionality within Streamlit, but none of these were great for general use - notably most didn't play well with the [Streamlit Cloud platform](https://streamlit.io/cloud). With `st.download_button` you can now seamlessly use download functionality both locally and with on our cloud platform. Want to play with some samples? Check out the radio buttons in the sidebar!
 
 **Error Scenarios**
 - Raise exception when download button used inside form
