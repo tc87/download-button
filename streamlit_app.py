@@ -48,9 +48,15 @@ Below are some other notable updates on this release:
 - 🖥️ Since Macs are set to verify SSL in Python, if certificates aren't installed, a `SSL: CERTIFICATE_VERIFY_FAILED` error propagates. We removed HTTPS in order to solve this issue. [[3744](https://github.com/streamlit/streamlit/pull/3744)]
 - 🔑 Integers can now also be used as keys in widget declarations. This helps community members who use integers for keys. This change updates type annotations to allow it, and ensures integer keys are converted to strings. [[3697](https://github.com/streamlit/streamlit/pull/3697)]
 
-[Click here](https://github.com/streamlit/streamlit/compare/0.87.0...0.88.0) to check out all updates.
+[Click here](https://github.com/streamlit/streamlit/compare/0.87.0...0.88.0) to check out all updates. As always, thank you to all [our contributors](https://github.com/streamlit/streamlit/graphs/contributors) who help make Streamlit awesome!
 
 """
+
+Connect With Us
+We can be found at https://streamlit.io and https://twitter.com/streamlit
+Come by the forums if you'd like to ask questions, post awesome apps, or just say hi!
+
+
 # End release updates
 
 
@@ -71,13 +77,8 @@ pages = list(demo_pages.keys())
 
 if len(pages):
     pages.insert(0, "Release Notes")
-    st.sidebar.title(f"State Demos")
+    st.sidebar.title(f"Streamlit v0.88")
     query_params = st.experimental_get_query_params()
-    # TODO: This doesn't work yet. Locally it actually works, but on Streamlit Sharing
-    #   it doesn't somehow. The query params are actually read and parsed correctly,
-    #   but it doesn't manage to set the index based on it. Seems to be a weird
-    #   interaction between the widget value in session state and value given in arg.
-    #   See if this is fixed in final session state version.
     if "page" in query_params and query_params["page"][0] == "headliner":
         index = 1
     else:
