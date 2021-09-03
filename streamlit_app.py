@@ -40,7 +40,7 @@ release_notes = f"""
 
 Want to play with some samples? Check out the radio buttons in the sidebar and check out [the docs](https://docs.streamlit.io/en/stable/api.html?highlight=download%20button#streamlit.download_button) for more info!
 
-# 🧩 Other notable updates
+## 🧩 Other notable updates
 
 Below are some other notable updates on this release:
 
