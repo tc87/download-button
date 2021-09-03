@@ -4,14 +4,9 @@ import numpy as np
 
 
 def show():
-    st.write(
-        """
-        ## Demo Set 1
-        """
-    )
     df = pd.read_csv("desktop_streamlit.csv")
 
-    st.title('Download Button')
+    st.title('Download Button Demo Set 1')
 
     st.subheader('Download a Text File')
     with st.echo():
