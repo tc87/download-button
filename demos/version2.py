@@ -6,8 +6,6 @@ import numpy as np
 def show():
     df = pd.read_csv("desktop_streamlit.csv")
 
-    st.title('Download demo set 2')
-
     st.subheader('Unicode characters in file names')
     with st.echo():
         st.download_button(
