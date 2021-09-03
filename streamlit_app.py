@@ -27,7 +27,7 @@ demo_pages = {
 contributors = []
 
 intro = f"""
-This release launches download button as well as other improvements and bug fixes.
+This release launches Download Button as well as other improvements and bug fixes.
 """
 
 release_notes = f"""
