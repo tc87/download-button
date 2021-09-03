@@ -3,12 +3,7 @@ import pandas as pd
 
 
 def show():
-    st.write(
-        """
-        ## Version 3
-        Covers use cases from 3nd iteration
-        """
-    )
+
     df = pd.read_csv("desktop_streamlit.csv")
 
     st.subheader('Download Button without an output file name')
