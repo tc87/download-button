@@ -17,9 +17,9 @@ VERSION = ".".join(st.__version__.split(".")[:2])
 from demos import orchestrator
 
 demo_pages = {
-    "Download demo set 1": orchestrator.show_version1,
-    "Download demo set 2": orchestrator.show_version2,
-    "Download demo set 3": orchestrator.show_version3,
+    "Download Demo Set 1": orchestrator.show_version1,
+    "Download Demo Set 2": orchestrator.show_version2,
+    "Download Demo Set 3": orchestrator.show_version3,
 }
 
 
