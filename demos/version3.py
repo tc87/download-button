@@ -6,6 +6,8 @@ def show():
 
     df = pd.read_csv("desktop_streamlit.csv")
 
+    st.title('Download demo set 3')
+
     st.subheader('Download Button without an output file name')
 
     with st.echo():
