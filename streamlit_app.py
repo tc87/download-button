@@ -27,7 +27,7 @@ demo_pages = {
 contributors = []
 
 intro = f"""
-This release launches download button as well as bug fixes and improvements.
+This release launches download button as well as other improvements and bug fixes.
 """
 
 release_notes = f"""
@@ -37,7 +37,7 @@ release_notes = f"""
 
 With `st.download_button` you can now seamlessly use download functionality both locally and on [Streamlit Cloud](https://streamlit.io/cloud). 
 
-Check out the radio buttons in the sidebar to play with some samples and head over to [the blog](https://docs.streamlit.io/en/stable/api.html?highlight=download%20button#streamlit.download_button) for more info!
+Check out the radio buttons in the sidebar to play with some samples and head over to [the blog](blog.streamlit.io/0-88-0-release-notes/) for more info!
 
 ## 🧩 Other notable updates
 
